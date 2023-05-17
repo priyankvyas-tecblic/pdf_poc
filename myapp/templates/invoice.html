@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>HOLIDAY PACKAGE DETAILS</title>
+    <style>
+
+  @page {
+    @frame footer_frame {           /* Another static Frame */
+      -pdf-frame-content: footer_content;
+      left: 50pt; top: 820pt; height: 15pt;
+  }
+  @frame content_frame {          /* Content Frame */
+  left: 20pt;right: 20pt;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <table>
+<tr>
+<td style="width: 600px;">
+
+  <div style="margin-left: -150px;padding-top: -65px;height:250px;width: 500px;">
+    <img
+    src="/home/tecblic/priyank/konnect_europe/konnect_europe/static/pdf/leftsideimg.svg"
+    alt="Left Header img"
+    style="width:600px;height:150px;"
+    />
+  </td>
+<td style="margin-left: -550px;">
+  <div style="">
+    <h1 style="padding-top: -20px;color: white;font-size: 20px;">package_name</h1>
+    <h5 style="padding-top: -19px;color: white;font-size: 13px;">description</h5>
+  </div>
+</td>
+  <td style="padding-top:-12px;">
+    <div style="color: #5e6282;margin-left: -100px;margin-top: 0px;">
+  <h4>travelagent.agency_name</h4>
+  <h4>travelagent.agency_email</h4>
+  <h4>travelagent.agency_contact</h4>
+</div>
+</td>
+
+<td style="margin-left: 48px;padding-left:-20px;padding-top: -30px;">
+  <img src="/home/tecblic/priyank/konnect_europe/konnect_europe/static/pdf/rightsideimg.svg" alt="Right Header img" style="padding-top: -15px;"/>
+
+</td>
+  </div>
+  
+  
+</tr>
+</table>
+
+<table style="margin-top: 20px;">
+  <tr>
+<td style="margin-left:20px;border: 1px solid #f95700;border-radius: 10px;margin-left: 20px;">
+  <h2 style="color: #f95700;font-size: 15px;padding-top: 20px;">
+    Attraction
+  </h2>
+  <ul >
+    <li>
+      wdwdwd
+    </li>
+    <li>
+      wdwdwd
+    </li>
+    <li>
+    </li>
+  </ul>
+</td>
+</tr>
+
+
+</table>
+     
+<table style="margin-top: 20px;">
+  <tr>
+    <td style="border: 1px solid #0090c5;border-radius: 10px;margin-left: 20px;">
+    
+    
+    <h2 style="color: #0090c5;font-size: 15px;padding-top: 20px;">Tour Highlights</h2>
+    <ul>
+      <li>
+        i.highlight
+      </li>
+      
+      <li>
+        i.highlight
+      </li>
+    </ul>
+    </tr>
+</table>
+      <!-- position: absolute; right: -12px; top: -12px; height:100px -->
+  
+      <div
+        style="
+          border: 1px solid #f95700;
+          border-radius: 10px;
+          padding: 34px;
+          margin-bottom: 40px;
+          margin-top: 2px;
+        "
+      >
+        <h2 style="color: #f95700">Itinarary</h2>
+        <ul>
+          {% for i in itineraries %}
+          <li>
+            {{i.desc}}
+          </li> 
+          {% endfor %}
+        </ul>
+      </div>
+      <div
+        style="
+          border: 1px solid #0090c5;
+          border-radius: 10px;
+          padding: 34px;
+          margin-bottom: 40px;
+          margin-top: 2px;
+        "
+      >
+        <h2 style="color: #0090c5">What's include</h2>
+        <ul>
+          {% for i in includeds %}
+          <li>
+          {{i.included_point}}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div
+        style="
+          border: 1px solid #f95700;
+          border-radius: 10px;
+          padding: 34px;
+          margin-bottom: 40px;
+          margin-top: 2px;
+        "
+      >
+        <h2 style="color: #f95700">What's not include</h2>
+        <ul>
+          {% for i in not_includeds %}
+          <li>
+            {{i.not_included_point}}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div
+        style="
+          border: 1px solid #0090c5;
+          border-radius: 10px;
+          padding: 34px;
+          margin-bottom: 40px;
+          margin-top: 2px;
+        "
+      >
+        <h2 style="color: #0090c5">Booking Policies</h2>
+        <ul>
+          {% for i in booking_policy %}
+          <li>
+            {{i.booking_policy}}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div
+        style="
+          border: 1px solid #f95700;
+          border-radius: 10px;
+          padding: 34px;
+          margin-bottom: 40px;
+          margin-top: 2px;
+        "
+      >
+        <h2 style="color: #f95700">Cancellation Policies</h2>
+        <ul>
+          {% for i in cancelation_policy %}
+          <li>
+            {{i.cancelation_policy}}
+          </li>
+          {% endfor %}
+       </ul>
+      </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div id="footer_content" style="margin-left: -75px;width: 1000px;">
+  <img 
+    src="/home/tecblic/priyank/konnect_europe/konnect_europe/static/pdf/footerleftImg.svg"
+    alt="footer img"
+    style="width: 2400px;height: 40px;"
+  />
+
+<b style="color:#f95700;">
+  page <pdf:pagenumber>
+</b>
+  <img 
+          src="/home/tecblic/priyank/konnect_europe/konnect_europe/static/pdf/footerrightImg.svg"
+          alt="footer img"
+          style=""
+        />      
+    </div>
+  </body>
+</html>
